@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>CRUD - Geekyshows</title>
+<link rel="stylesheet" href="{% static 'add/css/bootstrap.css' %}">
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="text-center alert alert-danger">Function Based View ModelForm CRUD Project </h2>
+ {% block content %} {% endblock content %}
+</div>
+<script src="{% static 'add/static/add/js/jquery.js' %}"></script>
+<script src="{% static 'add/static/add/js/popper.js' %}"></script>
+<script src="{% static 'add/static/add/js/bootstrap.js' %}"></script>
+</body>
+</html>
